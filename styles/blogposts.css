@@ -1,0 +1,237 @@
+/*************
+GENERAL STYLES
+**************/
+
+/*ADD MEDIA QUERY FOR screen-size less than 500px*/
+@-ms-viewport{
+  width: device-width;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    background-image: url('flower4.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.row {
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+body {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Gentium Basic', serif;
+  -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-button {
+  background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-family: 'Gentium Basic', serif;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+.nav-button:hover {
+  background-color: #e7e7e7;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+  box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.post-title {
+  text-align: center;
+  font-family: 'Niconne', cursive;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+.question {
+  font-family: 'Gentium Basic', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-right: 20px;
+  text-indent: 25px;
+  text-align: left;
+}
+.answer {
+  font-family: 'Gentium Basic', serif;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  font-size: 1.1em;
+  text-indent: 25px;
+  text-align: left;
+}
+.answer li {
+  display: list-item;
+  list-style-type: square;
+  margin-bottom: 5px;
+  list-style-position: inside;
+}
+.post-article {
+  padding: 15px;
+  text-indent: 25px;
+}
+.secondary-header {
+  font-family: 'Gentium Basic', serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+.post-3-list {
+  margin-bottom: 15px;
+}
+.post-3-list li {
+  display: list-item;
+  list-style-type: square;
+  margin-bottom: 5px;
+  list-style-position: inside;
+}
+.post-3-list li:hover {
+  font-weight: bolder;
+}
+
+.hr-footer {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width:  80%;
+}
+
+footer {
+  margin: auto 0;
+  padding: 20px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/******************
+CONTACT FORM
+*****************/
+.contact-form {
+  width: 500px;
+  margin: 20px;
+  padding-bottom: 10px
+}
+
+.contact-form h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  margin-bottom: 1px;
+}
+#first-name, #last-name {
+  display: inline;
+  width: 240px;
+}
+#first-name{
+  margin-right: 5px;
+}
+#last-name{
+  margin-left: 3px;
+}
+#email-address, #text-area, #form-button {
+  display: block;
+}
+#email-address, #text-area {
+  width: 100%;
+}
+
+#first-name, #last-name, #email-address, #form-button {
+ margin-top: 20px;
+ height: 30px;
+
+  }
+  #text-area {
+    margin-top: 20px;
+    height: 100px;
+  }
+  #first-name, #last-name, #email-address, #text-area {
+     border: 2px solid #FFBF00;
+  }
+  #first-name:focus, #last-name:focus, #email-address:focus, #text-area:focus {
+    outline: none;
+     box-shadow: 0 0 10px #FFBF00;
+  }
+::-webkit-input-placeholder {
+  color: #D9D0B6;
+  font-style: italic;
+  font-size: 1.1em;
+}
+#form-button {
+margin-bottom: 10px;
+width: 30%;
+background-color: #FFBF00;
+color: #FFFFFF;
+border: none;
+font-size: 1.1em;
+}
+#form-button:focus {
+  outline: none;
+   box-shadow: 0 0 10px #FFBF00;
+}
+/*********
+font-family: 'Calligraffitti', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'The Girl Next Door', cursive;
+font-family: 'Clicker Script', cursive;
+font-family: 'Gentium Basic', serif;
+*********/

@@ -86,7 +86,7 @@ nav ul li {
     height: 50px;
 }
 .nav-button:hover {
-  background-color: #e7e7e7;
+  background-color: #FCFFC2;
   -webkit-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
   -moz-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
   box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);

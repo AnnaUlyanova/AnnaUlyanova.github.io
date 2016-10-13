@@ -3,41 +3,51 @@
   <head>
     <title>Anna Ulyanova | EDA Blog | Main</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Allura|Annie+Use+Your+Telescope|Calligraffitti|Clicker+Script|Gentium+Basic:400,400i,700,700i|Italianno|Niconne|The+Girl+Next+Door" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Allura|Annie+Use+Your+Telescope|Calligraffitti|Clicker+Script|Gentium+Basic:400,400i,700,700i|Italianno|Niconne|The+Girl+Next+Door" rel="stylesheet">
+
   </head>
-  <body>
-    <div class="grid">
-<div class="main">
-  <header>
-    <div class="row">
-  <div class="col-4">
-    <nav>
-    <ul class="nav">
-        <li><a href="index.html"><button class="nav-button">Blog</button></a></li>
-        <li><a href="contact.html"><button class="nav-button">Contact</button></a></li>
-    </ul>
-  </nav>
-  </div>
-  </div>
-  </header>
+<body>
+<div class="container">
   <div class="row">
-    <div class="col-12">
-<div class="contact-form">
-  <h1> Let's talk :)</h1>
+  <div class="six columns">
+      <nav>
+        <ul class="nav">
+            <li><a href="index.html"><div class="nav-button">Blog</div></a></li>
+            <li><a href="contact.html"><div class="nav-button">Contact</div></a></li>
+        </ul>
+      </nav>
+      <div class="welcome">
+    <h1><br>Let's talk :)</h1>
+  </div>
+</div>
+  <div class="six columns">
+    <img src="img/tui-main-responsive.jpg" alt="Tui Kowhai">
+  </div>
+  </div>
+  <div class="row">
+<div class="contact-form twelve columns">
   <form>
-    <input name="name" placeholder="Your first name" id="first-name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your first name'">
-    <input name="name" placeholder="Your last name" id="last-name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your last name'">
-    <input name="emailaddress" placeholder="Your email address" id="email-address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
-    <textarea name="subject" placeholder="Your message" id="text-area" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message'"></textarea>
-    <input name="submit" type="submit" value="Send" class="button" id="form-button">
+    <div class="row">
+    <input class="four columns" name="name" placeholder="Your first name" id="first-name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your first name'">
+    <input class="four columns" name="name" placeholder="Your last name" id="last-name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your last name'">
+    </div>
+    <div class="row">
+    <input class="eight columns" name="emailaddress" placeholder="Your email address" id="email-address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
+  </div>
+  <div class="row">
+    <textarea class="eight columns" name="subject" placeholder="Your message" id="text-area" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message'"></textarea>
+</div>
+<div class="row">
+    <input class="three columns" name="submit" type="submit" value="Send" class="button" id="form-button">
+  </div>
   </form>
 </div>
 </div>
+<hr class="hr-main">
+<footer>by <a href="https://github.com/AnnaUlyanova" target="_blank">Anna Ulyanova</a></footer>
 </div>
-</div>
-</div>
-<hr class="hr-footer">
-<footer>by <a href="https://github.com/AnnaUlyanova" target="_blank">Anna Ulyanova</a></footer></body>
+</body>
 </html>

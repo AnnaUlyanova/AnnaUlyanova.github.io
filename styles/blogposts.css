@@ -185,6 +185,7 @@ figcaption a:visited {
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
     transition:all .5s;
+    margin-top: 10px;
 }
 .flip figure:hover img,figure.hover img {
     -webkit-transform:rotateY(180deg);

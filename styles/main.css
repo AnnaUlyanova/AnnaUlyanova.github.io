@@ -200,3 +200,14 @@ margin-bottom: 15px;
   outline: none;
    box-shadow: 0 0 10px #FFBF00;
 }
+
+/************
+PROJECT PAGE
+************/
+.project-card {
+  font-family: 'Gentium Basic', serif;
+  font-style: italic;
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 4px;
+}

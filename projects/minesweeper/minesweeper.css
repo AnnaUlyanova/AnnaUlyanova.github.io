@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  font-family: 'Gentium Basic', serif;
+}
+
+/*body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-center;
+  flex-direction: column;
+}*/
+
+#message {
+  display: flex;
+  font-size: 2.5em;
+}
+a {
+   text-decoration: none;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board div {
+  color: green;
+  font-size: 2rem;
+  width: 75px;
+  height: 75px;
+  border: 1px #ccc dotted;
+  border-radius: 10%;
+  background-color: white;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board div:hover {
+  background-color: white;
+}
+
+div.mine, div.mine:hover {
+  background: no-repeat center/100% url("images/bomb.jpg");
+}
+
+div.hidden {
+  background: #eee;
+}
+
+div.hidden:hover {
+  background: #ccc;
+}
+
+div.marked, div.marked:hover {
+  background: no-repeat center/100% url("images/baby-bomb.png");
+}
+
+div.startbutton {
+  background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-family: 'Gentium Basic', serif;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    padding-top: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anna Ulyanova | EDA Blog | Reflection #12</title>
+    <meta charset="UTF-8">
+    <link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="../styles/blogposts.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Allura|Annie+Use+Your+Telescope|Calligraffitti|Clicker+Script|Gentium+Basic:400,400i,700,700i|Italianno|Niconne|The+Girl+Next+Door" rel="stylesheet">
+    <script type='text/javascript' src="../script.js"></script>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+    <div class="six columns">
+      <img src="kowhai.jpg" alt="Kowhai">
+    </div>
+<div class="six columns">
+  <nav>
+    <ul class="nav">
+      <li><a href="../contact.html"><div class="nav-button">Contact</div></a></li>
+      <li><a href="../projects.html"><div class="nav-button">Projects</div></a></li>
+      <li><a href="../index.html"><div class="nav-button">Blog</div></a></li>
+    </ul>
+</nav>
+<h1 class="post-title">Technical Blog Part 7. JavaScript scope.</h1>
+<hr class="hr-main">
+</div>
+</div>
+
+<section>
+  <div class="row">
+    <div class="twelve columns">
+<p class="post-article">
+  <ul>
+    <li class="question">What 'scope' is, and how it works in JavaScript.</li>
+        <p class="answer">
+          There are 2 scopes in JavaScript: global and local, and in general scope is the set of variables/functions you can access.
+
+          <br>If a variable declared outside of a function, it is defined globally, and it means all functions can access it.<br>
+          <br><code>var animal = 'penguin'; // global scope</code><br>
+        <p class="answer">If a variable declared within a function, it is local to the function, and they can only be accessed within the function.<br>
+          <br><code>function findAnimal() {<br>
+            var animal = "ocelot"; // local scope
+          <br>}</code>
+        </p>
+        <p class="answer">
+          Any function defined inside another function has a local scope which is linked to the outer function, so any variable declared within that function is accessible from any nested functions. Local variables are deleted when the function is completed.
+        </p>
+        </p>
+
+      </ul>
+</p>
+</div>
+</div>
+
+</section>
+<hr class="hr-main">
+<footer>by <a href="https://github.com/AnnaUlyanova" target="_blank">Anna Ulyanova</a></footer>
+</div>
+
+</body>
+</html>

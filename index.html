@@ -7,8 +7,9 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
 <link href="styles/main.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Allura|Annie+Use+Your+Telescope|Calligraffitti|Clicker+Script|Gentium+Basic:400,400i,700,700i|Italianno|Niconne|The+Girl+Next+Door" rel="stylesheet">
-
-  </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="script-main-page.js"></script>
+</head>
 <body>
   <div class="container">
     <div class="row">
@@ -30,100 +31,107 @@
     </div>
     </div>
     <div class="row">
-      <div class="one-third column">
+      <div class="twelve columns">
+        <button class="tech-cult" id='hide-cult'>Show Technical blog posts only</button>
+        <button class="tech-cult" id='hide-tech'>Show Cultural blog posts only</button>
+        <button class="tech-cult" id='show-all'>Show All</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-third column cultural">
       <a href="blog/c1-reflection-blog.html"><article>
-          <p><span class="article-sprint">#1</span><br><span class="quote">"Look within; within is the fountain of all good."</span><hr class="hr-main"><span class="article-sprint">Sprint 1</span></p>
+          <p><span class="article-sprint">#1</span><br><span class="quote">"Look within; within is the fountain of all good."</span><hr class="hr-main"><span class="article-sprint">Sprint 1. <em>Cultural blog</em></span></p>
       </article></a>
     </div>
-  <div class="one-third column">
+  <div class="one-third column cultural">
 <a href="blog/c1-time-and-habits-blog.html"><article>
-<p><span class="article-sprint">#2</span><br><span class="quote">By non-doing, all doing becomes possible.</span><hr class="hr-main"><span class="article-sprint">Sprint 1</span></p>
+<p><span class="article-sprint">#2</span><br><span class="quote">By non-doing, all doing becomes possible.</span><hr class="hr-main"><span class="article-sprint">Sprint 1. <em>Cultural blog</em></span></p>
 </article></a>
 </div>
-  <div class=" one-third column">
+  <div class=" one-third column technical">
 <a href="blog\t2-html-css-dom-p1.html"><article>
-  <p><span class="article-sprint">#3</span><br><span class="quote">"Mindfulness, I declare, is useful everywhere."</span><hr class="hr-main"><span class="article-sprint">Sprint 2</span></p>
+  <p><span class="article-sprint">#3</span><br><span class="quote">"Mindfulness, I declare, is useful everywhere."</span><hr class="hr-main"><span class="article-sprint">Sprint 2. <em>Technical blog</em></span></p>
 </article></a>
 </div>
 </div>
 <div class="row">
 
-<div class="one-third column">
+<div class="one-third column technical">
 <a href="blog\t2-html-css-dom-p2.html"><article>
-  <p><span class="article-sprint">#4</span><br><span class="quote">"You cannot solve a problem with the same mind that created it."</span><hr class="hr-main"><span class="article-sprint">Sprint 2</span></p>
+  <p><span class="article-sprint">#4</span><br><span class="quote">"You cannot solve a problem with the same mind that created it."</span><hr class="hr-main"><span class="article-sprint">Sprint 2. <em>Technical blog</em></span></p>
 </article></a>
 </div>
 
-<div class="one-third column">
+<div class="one-third column cultural">
 <a href="blog\c2-emotional-intelligence.html"><article>
-  <p><span class="article-sprint">#5</span><br><span class="quote">"What lies behind us and what lies ahead of us are tiny matters compared to what lies within us."</span><hr class="hr-main"><span class="article-sprint">Sprint 2</span></p>
+  <p><span class="article-sprint">#5</span><br><span class="quote">"What lies behind us and what lies ahead of us are tiny matters compared to what lies within us."</span><hr class="hr-main"><span class="article-sprint">Sprint 2. <em>Cultural blog</em></span></p>
 </article></a>
 </div>
 
-<div class="one-third column">
+<div class="one-third column technical">
 <a href="blog\t3-design-to-web-blog.html"><article>
-  <p><span class="article-sprint">#6</span><br><span class="quote">"One can have no smaller or greater mastery than mastery of oneself."</span><hr class="hr-main"><span class="article-sprint">Sprint 3</span></p>
+  <p><span class="article-sprint">#6</span><br><span class="quote">"One can have no smaller or greater mastery than mastery of oneself."</span><hr class="hr-main"><span class="article-sprint">Sprint 3. <em>Technical blog</em></span></p>
 </article></a>
 </div>
 </div>
 <div class="row">
-  <div class="one-third column">
+  <div class="one-third column cultural">
   <a href="blog/c3-meditation-process.html"><article>
-      <p><span class="article-sprint">#7</span><br><span class="quote">"The most venerable, clearly understood, enlightened, and reliable constant in the world is not only that we want to be happy, but that we want only to be so. Our very nature requires it of us."</span><hr class="hr-main"><span class="article-sprint">Sprint 3</span></p>
+      <p><span class="article-sprint">#7</span><br><span class="quote">"The most venerable, clearly understood, enlightened, and reliable constant in the world is not only that we want to be happy, but that we want only to be so. Our very nature requires it of us."</span><hr class="hr-main"><span class="article-sprint">Sprint 3. <em>Cultural blog</em></span></p>
   </article></a>
 </div>
-<div class="one-third column">
+<div class="one-third column technical">
 <a href="blog/t4-javascript-basics.html"><article>
-    <p><span class="article-sprint">#8</span><br><span class="quote">"Seek first to understand, then to be understood."</span><hr class="hr-main"><span class="article-sprint">Sprint 4</span></p>
+    <p><span class="article-sprint">#8</span><br><span class="quote">"Seek first to understand, then to be understood."</span><hr class="hr-main"><span class="article-sprint">Sprint 4. <em>Technical blog</em></span></p>
 </article></a>
 </div>
-<div class="one-third column">
+<div class="one-third column cultural">
 <a href="blog/c4-daily-mindfulness.html"><article>
     <p><span class="article-sprint">#9</span><br><span class="quote">"You can make more friends in two months by becoming really
 interested in other people than you can in two years by trying
 to get other people interested in you. Which is just another
-way of saying that the way to make a friend is to be one."</span><hr class="hr-main"><span class="article-sprint">Sprint 4</span></p>
+way of saying that the way to make a friend is to be one."</span><hr class="hr-main"><span class="article-sprint">Sprint 4. <em>Cultural blog</em></span></p>
 </article></a>
 </div>
 </div>
 <div class="row">
-  <div class="one-third column">
+  <div class="one-third column technical">
   <a href="blog/t5-problem-solving.html"><article>
-      <p><span class="article-sprint">#10</span><br><span class="quote">"Try and penetrate with our limited means the secrets of nature and you will find that, behind all the discernible laws and connections, there remains something subtle, intangible and inexplicable."</span><hr class="hr-main"><span class="article-sprint">Sprint 5</span></p>
+      <p><span class="article-sprint">#10</span><br><span class="quote">"Try and penetrate with our limited means the secrets of nature and you will find that, behind all the discernible laws and connections, there remains something subtle, intangible and inexplicable."</span><hr class="hr-main"><span class="article-sprint">Sprint 5. <em>Technical blog</em></span></p>
   </article></a>
 </div>
-<div class="one-third column">
+<div class="one-third column cultural">
 <a href="blog/c5-self-confidence.html"><article>
-    <p><span class="article-sprint">#11</span><br><span class="quote">"If you haven't found something strange during the day, it hasn't been much of a day."</span><hr class="hr-main"><span class="article-sprint">Sprint 5</span></p>
+    <p><span class="article-sprint">#11</span><br><span class="quote">"If you haven't found something strange during the day, it hasn't been much of a day."</span><hr class="hr-main"><span class="article-sprint">Sprint 5.  <em>Cultural blog</em></span></p>
 </article></a>
 </div>
-<div class="one-third column">
+<div class="one-third column technical">
 <a href="blog/t6-js-language.html"><article>
-    <p><span class="article-sprint">#12</span><br><span class="quote">"To reach peace, teach peace."</span><hr class="hr-main"><span class="article-sprint">Sprint 6</span></p>
+    <p><span class="article-sprint">#12</span><br><span class="quote">"To reach peace, teach peace."</span><hr class="hr-main"><span class="article-sprint">Sprint 6. <em>Technical blog</em></span></p>
 </article></a>
 </div>
 </div>
 <div class="row">
-  <div class="one-third column">
+  <div class="one-third column cultural">
   <a href="blog/c6-control.html"><article>
-      <p><span class="article-sprint">#13</span><br><span class="quote">"Learning never exhausts the mind."</span><hr class="hr-main"><span class="article-sprint">Sprint 6</span></p>
+      <p><span class="article-sprint">#13</span><br><span class="quote">"Learning never exhausts the mind."</span><hr class="hr-main"><span class="article-sprint">Sprint 6. <em>Cultural blog</em></span></p>
   </article></a>
 </div>
-    <div class="one-third column">
+    <div class="one-third column cultural">
     <a href="blog/c7-motivation.html"><article>
-        <p><span class="article-sprint">#14</span><br><span class="quote">"So long as a person is capable of self-renewal they are a living being."</span><hr class="hr-main"><span class="article-sprint">Sprint 7</span></p>
+        <p><span class="article-sprint">#14</span><br><span class="quote">"So long as a person is capable of self-renewal they are a living being."</span><hr class="hr-main"><span class="article-sprint">Sprint 7. <em>Cultural blog</em></span></p>
     </article></a>
     </div>
-    <div class="one-third column">
+    <div class="one-third column technical">
     <a href="blog/t6-scope.html"><article>
-        <p><span class="article-sprint">#15</span><br><span class="quote">"Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it."</span><hr class="hr-main"><span class="article-sprint">Sprint 8</span></p>
+        <p><span class="article-sprint">#15</span><br><span class="quote">"Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it."</span><hr class="hr-main"><span class="article-sprint">Sprint 8. <em>Technical blog</em></span></p>
     </article></a>
     </div>
 </div>
 <div class="row">
-  <div class="one-third column">
+  <div class="one-third column cultural">
   <a href="blog/c8-connecting.html"><article>
-      <p><span class="article-sprint">#16</span><br><span class="quote">“Those who are unaware they are walking in darkness will never seek the light.”</span><hr class="hr-main"><span class="article-sprint">Sprint 8</span></p>
+      <p><span class="article-sprint">#16</span><br><span class="quote">“Those who are unaware they are walking in darkness will never seek the light.”</span><hr class="hr-main"><span class="article-sprint">Sprint 8. <em>Cultural blog</em></span></p>
   </article></a>
 </div>
 </div>

@@ -144,6 +144,31 @@ a:visited {
   padding-left: 5px;
 }
 
+.tech-cult:not(:last-child) {
+  margin-right: 10px;
+}
+
+.tech-cult {
+
+  border: 2px solid #e7e7e7;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Gentium Basic', serif;
+  border-radius: 5px;
+}
+
+.tech-cult:hover {
+  background-color: #F9FF7D;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+  box-shadow: 5px 5px 5px 0px rgba(92,92,92,1);
+}
+
+.hide {
+  display: none;
+}
+
 footer {
   margin: auto 0;
   padding: 20px;
